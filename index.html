@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="principal" id="principal">
+            <img src="logo.png">
+            <div class="inicial" id="inicial">
+                <button class="btnComecar btn" onclick="comecar()">Começar a jogar</button>
+                <button class="btnAdicionar btn" onclick="adicionar()">Adicionar palavra</button>
+            </div>
+            <div class="adicionar" id="adicionar">
+                <input type="text" name="palavra" id="palavra" placeholder="Digite uma palavra ou frase">
+                <img src="exclamacao.png">
+                <label>Máximo de 8 letras</label>
+                <button class="btnSalvar btn btn1" onclick="salvarComecar()">Salvar e começar</button>
+                <button class="btnCancelar btn btn1" onclick="cancelar()">Cancelar</button>
+            </div>
+            <div class="jogo" id="jogo">
+                <canvas class="tabuleiro" id="canvas" width="1200px" height="800px"></canvas>
+                <button class="btnNovoJogo btn btn1" onclick="novoJogo()">Novo Jogo</button>
+                <button class="btnDesistir btn btn1" onclick="desistir()">Desistir</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p> &copy; 2022 All Rights Reserved. Design by <a href="https://www.linkedin.com/in/ricardorodriguesf/">Ricardo Rodrigues</a> </p>
+    </footer>
+    <script type="text/javascript" src="functions.js"></script>
+</body>
+
+</html>

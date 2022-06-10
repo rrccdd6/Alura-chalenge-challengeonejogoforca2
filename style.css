@@ -1,0 +1,129 @@
+.principal {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+.principal img {
+    position: absolute;
+    margin: 40px 84px;
+    width: 31.09px;
+    height: 48px;
+}
+
+.btnComecar {
+    margin: 390px 560px;
+    background: #1f7bd6;
+    color: #FFFFFFFF;
+}
+
+.btnAdicionar {
+    margin: 528px 560px;
+    color: #1f7bd6;
+}
+
+.adicionar {
+    display: none;
+}
+
+.adicionar input {
+    position: absolute;
+    width: 513px;
+    height: 48px;
+    margin: 256px 376px;
+    font-family: 'Inter';
+    font-size: 32px;
+    line-height: 150%;
+    background: none;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    color: #1f7bd6;
+}
+
+.adicionar input::placeholder {
+    color: #1f7bd6;
+}
+
+.adicionar img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin: 668px 376px;
+}
+
+.adicionar label {
+    position: absolute;
+    margin: 667px 400px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Inter';
+}
+
+.btnSalvar {
+    margin: 701px 376px;
+    background: #1f7bd6;
+    color: #FFFFFFFF;
+}
+
+.btnCancelar {
+    margin: 701px 732px;
+    color: #1f7bd6;
+}
+
+.jogo {
+    display: none;
+}
+
+.tabuleiro {
+    display: block;
+    margin: auto;
+}
+
+.btnNovoJogo {
+    margin: 904px 376px;
+    background: #1f7bd6;
+    color: #FFFFFFFF;
+}
+
+.btnDesistir {
+    margin: 904px 732px;
+    color: #1f7bd6;
+}
+
+.btn {
+    position: absolute;
+    width: 317px;
+    height: 105px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+    line-height: 18px;
+    font-family: 'Inter';
+    border-color: #FFFFFFFF;
+    cursor: pointer;
+}
+
+.btn1 {
+    width: 332px;
+    height: 67px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #1f7bd6;
+    color: #ffffff;
+    margin-top: 4em;
+    height: 3em;
+    text-align: center;
+    font-size: 25px;
+}
